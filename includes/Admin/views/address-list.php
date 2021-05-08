@@ -4,13 +4,13 @@
 
     <?php if ( isset( $_GET['inserted'] ) ) { ?>
         <div class="notice notice-success">
-            <p><?php _e( 'Address has been added successfully!', 'wedevs-academy' ); ?></p>
+            <p><?php _e( 'Address has been added successfully!', 'capp' ); ?></p>
         </div>
     <?php } ?>
 
     <?php if ( isset( $_GET['address-deleted'] ) && $_GET['address-deleted'] == 'true' ) { ?>
         <div class="notice notice-success">
-            <p><?php _e( 'Address has been deleted successfully!', 'wedevs-academy' ); ?></p>
+            <p><?php _e( 'Address has been deleted successfully!', 'capp' ); ?></p>
         </div>
     <?php } ?>
 
