@@ -1,0 +1,14 @@
+{
+    "name": "shakhawat/crud-app",
+    "description": "I will handle all crud operation inside this plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "crud\\app\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}
